@@ -14,7 +14,7 @@ const port = process.env.PORT || 5000
 
 
 //database connecton
-mongoose.connect(process.env.DATABASE).then(() => {
+mongoose.connect('mongodb+srv://outshade:3YWJBswXsspgt4Kn@cluster0.lu4d88g.mongodb.net/?retryWrites=true&w=majority').then(() => {
     console.log("Database is connection is Succesfull".green.bold)
 })
 
